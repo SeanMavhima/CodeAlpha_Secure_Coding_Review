@@ -1,0 +1,8 @@
+import base64
+
+# Base32 string
+encoded_data = "FU2TOUKGIZJVQOCLFM4SKL2FKNLEKOSGGZEEEOCUJJCVCSBZFIWUCUKXIVDFARKBIVCCIS2FI5IEKIBZIUZTGRJ2LE4DUSCBKJBDQMSCHBMCUNRPLA3FASSCG5DTM==="
+
+# Decoding Base32
+decoded_data = base64.b32decode(encoded_data)
+print(decoded_data)
